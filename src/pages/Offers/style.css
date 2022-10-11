@@ -1,0 +1,19 @@
+.contentPlans {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.buttonOffers {
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (max-width: 800px) {
+  .contentPlans {
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+}

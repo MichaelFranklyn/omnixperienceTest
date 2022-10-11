@@ -1,0 +1,70 @@
+.contentCardOffers {
+  width: 30rem;
+  height: 30rem;
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+  border-radius: 2rem;
+  padding: 1rem;
+}
+
+.contentCardOffers div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contentCardOffers h1 {
+  font-size: 4rem;
+  line-height: 2rem;
+  color: blue;
+}
+
+.contentCardOffers h5 {
+  font-size: 1rem;
+  line-height: 2rem;
+  color: white;
+}
+
+.contentCardOffers p {
+  font-size: 1rem;
+  line-height: 2rem;
+  color: black;
+  text-align: justify;
+}
+
+.div01CardOffers {
+  width: 100%;
+  height: 50%;
+  background-color: rgb(235, 238, 91);
+}
+
+.div02CardOffers {
+  width: 100%;
+  height: 50%;
+  background-color: rgb(76, 51, 165);
+}
+
+@media (max-width: 800px) {
+  .contentCardOffers {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .contentCardOffers div {
+    gap: 0.1rem;
+  }
+
+  .contentCardOffers h1 {
+    font-size: 1.5rem;
+  }
+
+  .contentCardOffers p {
+    text-align: center;
+  }
+}

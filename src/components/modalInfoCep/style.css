@@ -1,0 +1,79 @@
+.contentModal {
+  height: 100vh;
+  width: 100vw;
+  background: rgba(145, 154, 150, 0.3);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.cardModalInfo {
+  width: 50%;
+  height: 17rem;
+  padding: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+  background: #ffffff;
+  border-radius: 20px;
+  position: relative;
+}
+
+.cardModalInfo p {
+  width: 80%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.cardModalInfo span {
+  color: blue;
+}
+
+.cardModalInfo img {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 1.5rem;
+  cursor: pointer;
+}
+
+.contentCep,
+.contentCep div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.cardModalInfo .errorCep {
+  color: red;
+  margin-top: -1rem;
+}
+
+@media (max-width: 800px) {
+  .cardModalInfo {
+    width: 90%;
+    height: 60%;
+  }
+
+  .cardModalInfo p {
+    width: 100%;
+    font-size: 1.5rem;
+  }
+
+  .contentCep,
+  .contentCep div {
+    flex-direction: column;
+  }
+}
